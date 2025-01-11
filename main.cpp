@@ -18,7 +18,7 @@ int main() {
     std::string command;
     long value;
     std::string filename;
-    Logger logger("/Users/maximgvozdev/Gubkin_main/Gubkin_3_term/Algoritmic languages/Lab2/Lab_2/log.txt");
+    Logger logger("log.txt");
 
     while (true) {
         displayMenu(getMenuOptions);
